@@ -1,0 +1,90 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    margin: 0;
+}
+
+header {
+    background-color: transparent;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    color: white;
+}
+
+.banner {
+    height: 75vh;
+    padding: 64px 0px 0px 0px;
+    background-image: url(/assets/preview.png);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    width: 80px;
+}
+
+.no-bg {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.banner-end {
+    width: 100%;
+    text-align: center;
+}
+
+.banner-end-2{
+    padding: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    /* position: relative;
+    bottom: 50px; */
+}
+
+.container-thumbnail {
+    display: flex;
+    overflow:auto;
+    gap: 8px;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    bottom: 0%;
+}
+
+.nav-links {
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+p{
+    margin: 15px 5px 5px 5px;
+}
