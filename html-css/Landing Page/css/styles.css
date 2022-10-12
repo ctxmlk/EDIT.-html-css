@@ -1,0 +1,112 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&display=swap'); */
+
+body {
+	/* font-family: "Inter"; */
+	line-height: 1.5;
+	text-align: center;
+}
+
+h1{
+	font-family: 'Inter';
+	font-weight: 700;
+	font-size: 64px;
+	padding: 15px;
+
+}
+h2{
+	font-family: 'Inter';
+	font-weight: 500;
+	font-size: 40px;
+	padding: 15px;
+
+}
+h3{
+	font-family: 'Inter';
+	font-weight: 500;
+	font-size: 15px;
+}
+
+.btn{
+	border: none;
+	align-items: center;
+	padding: 8px 16px;
+	max-width: 150px;
+	height: 35px;
+}
+.btn-blue{
+	background-color:  #0064DA;
+	color: white;
+}
+
+.btn-dark{
+	color: white;
+	background-color: black;
+}
+.btn-light{
+	color: black;
+	background-color: white;
+}
+
+.rounded-pill{
+	border-radius: 15px;
+}
+
+.rounded-pill:hover{
+	background-color: #0064DA;
+	color: white;
+}
+
+
+
+
+/*media query para mac book*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.menu ul {  
+	list-style-type: none;  
+	display: flex;
+	font-size: 15px; 
+	padding: 10px 20px 0 10px;  
+}  
+
+.menu li{
+	list-style-type: none;
+	padding-right: 30px;
+}
+
+section{
+	padding: 12px;
+	text-align: center;
+}
+
+.card-container {
+	display: flex;
+	width: 500px;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.card{
+    width: 150px;
+    height: 130px;
+    background-color: pink;
+}
+
+.main-about {
+    background-color: #F5F5F5;
+}
+
+.main-solutions {
+}
+
+/* media query para mobile*/
