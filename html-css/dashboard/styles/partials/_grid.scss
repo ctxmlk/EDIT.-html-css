@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 10px 0 0 0 ;
+}
+
+.row {
+    flex-grow: 1;
+    display: flex; 
+    flex-wrap: wrap;
+    align-content: flex-end;
+ }
+
+%col {
+    display: flex;
+    flex-wrap: wrap; 
+    min-height: 20px;
+    justify-content: start;
+    gap: 7px;
+}
+
+$columns: 12;
+@for $i from 1 through $columns {
+    .col-#{$i} {
+        @extend %col;
+        width: calc(100% / $columns * $i );
+        @media screen and (max-width: 768px) {
+        .col-#{$i} {
+            width: 100%;
+        }
+    }
+
+    }
+}

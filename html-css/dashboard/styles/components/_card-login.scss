@@ -1,0 +1,81 @@
+.card_login {
+    max-width: 380px;
+    height: 540px;
+    margin: 60px auto;
+    background-color: white; //colors scss;
+    text-align: center;
+    border-radius: 10px;
+
+    a{
+        vertical-align: baseline;
+    }
+
+    a:visited {
+         color: blue; //colors scss;
+    }
+
+    img {
+        margin: 25px;
+    }
+
+    h4 {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    p{
+        color: grey; //colors scss;
+        font-size: 13px;
+        letter-spacing: 0;
+        line-height: 1.5;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .recover {
+        text-align: right;
+        margin: -30px 25px;
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .card_footer {
+        margin-top: 65px;
+        line-height: 5;
+        font-family: Arial, Helvetica, sans-serif;
+        & button {
+            padding: 15px 50px;
+            background-color: blue; //colors scss;
+            color: white; //colors scss;
+            border-radius: 10px;
+            margin-top: 35px;
+        }
+    }
+}
+
+
+
+.card_form {
+    margin: 35px 25px 35px 25px;
+}
+
+.input_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 20px;
+    background-color: rgba(235, 231, 231, 0.497);
+    height: 45px;
+    margin-top: 30px;
+    input {
+        flex-grow: 1;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        font-size: 16px;
+    }
+    img {
+        margin: 0;
+    }
+}
